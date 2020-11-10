@@ -1,0 +1,125 @@
+body {
+  color: #646c9a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem; }
+  body h1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 10px 0; }
+  body .save-button {
+    background-color: #1dc9b7;
+    padding-left: 13px;
+    padding-right: 13px; }
+  body .create-button {
+    background: #1dc9b7;
+    text-decoration: none;
+    width: max-content; }
+
+.wraper {
+  margin: 10px; }
+  .wraper h1.big_title {
+    font-size: 1.7rem; }
+  .wraper hr {
+    color: #646c9a;
+    border: 1.5px solid #646c9a; }
+  .wraper label {
+    font-size: 0.8rem; }
+  .wraper input[type=text] {
+    padding: 7px;
+    width: 40%;
+    border: 1px solid #ced4da;
+    border-radius: 3px; }
+  .wraper .buttons {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    min-width: 28px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8rem; }
+    .wraper .sectoin-link {
+      flex: 1;
+    }
+    .wraper .section-wraper
+    {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+.autopark-wraper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 125px; }
+  .autopark-wraper div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit; }
+  .autopark-wraper .autopark-label-block {
+    flex: 1; }
+  .autopark-wraper .autopark-input_block {
+    flex: 5; }
+
+.cars-wraper {
+  min-height: 170px; }
+
+.cars-form {
+  width: 80%;
+  min-height: inherit;
+  display: flex;
+  justify-content: flex-start; }
+  .cars-form div {
+    flex-direction: column;
+    display: flex;
+    min-height: inherit;
+    margin-right: 30px; }
+  .cars-form input[type=text] {
+    width: 60%;
+    margin: 5px 0; }
+  .cars-form .buttons-block {
+    flex: 1;
+    min-height: 115px;
+    position: relative; }
+    .cars-form .buttons-block .buttons-inner-block {
+      display: block;
+      position: absolute;
+      bottom: 0; }
+    .cars-form .buttons-block .menus {
+      background-color: #fd397a; }
+    .cars-form .buttons-block .plus {
+      background-color: #384ad7; }
+    .cars-form .buttons-block .save-button {
+      margin-top: 15px;
+      margin-bottom: 0; }
+  .cars-form .car-number {
+    flex: 3; }
+  .cars-form .driver-name {
+    flex: 3;
+    margin-left: -13%; }
+
+table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%; }
+
+th {
+  font-size: 1rem;
+  height: 50px;
+  background-color: #646c9a;
+  color: white;
+  border: none; }
+
+td {
+  text-align: center;
+  border: none;
+  padding: 5px; }
+
+tbody {
+  color: black; }
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; }
