@@ -2,6 +2,7 @@
 @section('content')
 <h1>Создать Автопарк</h1>
     {!! Form::open(['route'=>'autoparks.store'])!!}
+    {{ csrf_field() }}
         <div class="autopark-wraper">        
         <div class="autopark-label-block">
             <label for="autopark-name">Название</label>

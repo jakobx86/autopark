@@ -14,3 +14,8 @@
 Route::get('autoparks','AutoparksController@index');
 Route::get('autoparks/create','AutoparksController@create')->name('autoparks.create');
 Route::post('autoparks/store','AutoparksController@store')->name('autoparks.store');
+
+Route::get('users', function()
+{
+    return 'Users!';
+});

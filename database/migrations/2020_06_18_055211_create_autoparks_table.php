@@ -18,7 +18,7 @@ class CreateAutoparksTable extends Migration
             $table->string('name');
             $table->string('address');
             $table->string('scheadule');
-            $table->index('car_id');
+            $table->unsignedInteger('car_id');
             $table->foreign('car_id')->references('id')->on('cars');
             $table->timestamps();
         });
